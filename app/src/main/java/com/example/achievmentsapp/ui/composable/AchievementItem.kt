@@ -1,4 +1,4 @@
-package com.example.achievmentsapp.presentation.composable
+package com.example.achievmentsapp.ui.composable
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*

@@ -1,15 +1,17 @@
 package com.example.achievmentsapp.domain.models
 
 import com.google.gson.annotations.SerializedName
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
 
-
+@JsonClass(generateAdapter = true)
 data class Data(
-    @SerializedName("id")
+    @Json(name = "id")
     val id: Int,
-    @SerializedName("label")
+    @Json(name = "label")
     val label: String,
-    @SerializedName("records")
+    @Json(name = "records")
     val records: List<Record>,
-    @SerializedName("title")
+    @Json(name = "title")
     val title: String
 )

@@ -1,4 +1,4 @@
-package com.example.achievmentsapp.presentation.viewmodel
+package com.example.achievmentsapp.ui.viewmodel
 
 import androidx.compose.runtime.MutableState
 import androidx.lifecycle.ViewModel
